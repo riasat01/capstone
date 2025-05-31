@@ -83,7 +83,7 @@ const App = () => {
     <div className="font-inter min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 sm:p-8 flex flex-col items-center">
       <div className="w-full max-w-4xl bg-white rounded-xl shadow-2xl p-6 sm:p-10 border border-gray-100">
         <h1 className="text-4xl font-extrabold text-center text-gray-900 mb-8">
-          ML Model Prediction App
+          Unsupervised Domain Adaptation App
         </h1>
 
         <p className="text-lg text-gray-700 text-center mb-10">
