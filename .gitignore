@@ -1,0 +1,52 @@
+# General ignores (applies to CAPSTONE parent directory)
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+*.swo
+
+# Python specific ignores (for capstone_backend)
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Byte-code files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# IDE specific files
+# PyCharm
+.idea/
+
+# Editor specific files (e.g., test_main.http if it's a local client file)
+# If test_main.http is a generated/local test file, add it here.
+# If it's meant to be committed, remove this line.
+test_main.http
+
+# Environment variables
+.env
+.env.*local
+
+# Node.js specific ignores (for capstone_frontend)
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production build output
+dist/
+build/
+out/
+
+# npm specific lock files
+npm-debug.log*
+package-lock.json # Keep if using npm >= 5, remove if using Yarn exclusively
+
+# Other common frontend ignores
+.cache/
+.project
+.npm
+/coverage/ # Test coverage reports
